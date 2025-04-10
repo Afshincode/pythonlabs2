@@ -10,3 +10,8 @@
 
 s = {1, 2, 3, 4}
 t = {2, 3, 4, 5, 7}
+
+
+
+set_squared = {number ** 2 for number in s|t if number > 2}
+print(set_squared)
