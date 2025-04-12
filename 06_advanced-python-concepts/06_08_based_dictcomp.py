@@ -15,3 +15,13 @@
 
 
 
+
+dict_1 = {k: [int(digit) for digit in str(k)] for k in range(1000)}
+
+print(dict_)
+
+
+dict_2 = {k: [int(digit) for digit in bin(k)[2:].zfill(3)] for k in range(1000)}
+
+print(dict_2)
+
