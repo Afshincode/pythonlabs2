@@ -9,3 +9,5 @@ names = ['Olivia', 'Noah', 'Ava', 'Oliver', 'Isabella', 'Mason', 'Sophia', 'Loga
 
 
 
+names_beginning_with_M = list(filter(lambda name: name[0] == "M", names))
+print(names_beginning_with_M)
